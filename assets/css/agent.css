@@ -1,0 +1,159 @@
+
+         .status_bg{
+         background:#2699fb;
+         }
+
+         .btn{
+         font-size: 13px;
+         }
+
+         .dialer-btn{
+         background: #f3bb71 !important;
+         font-size: 12px;
+         font-weight: 400 !important;
+         padding: 7px !important;
+         }
+
+         #liveToast .form-control, #liveToast .btn {
+         line-height: 35px !important;
+         padding-left: 15px !important;
+         margin-bottom: 15px;
+         border-radius: 7px !important;
+         height: 33px !important;
+         }
+
+         .toast-body {
+         padding: .75rem;
+         word-wrap: break-word;
+         background: #5f6dac;
+         }
+
+         .bg_view{
+         background:#56db56 
+         }
+
+         .bg_call{
+         background: #fbe1b4;
+         color:#ffb352;
+         }
+
+         #liveToast:before {
+         position: absolute;
+         display: inline-block;
+         top: 24px;
+         border-right: 9px solid transparent;
+         border-bottom: 11px solid #fff;
+         border-left: 9px solid transparent;
+         border-bottom: 9px solid #5f6dac !important;
+         right: 90%;
+         content: '';
+         transform: rotate(-90deg);
+         }
+
+         .offcanvas-bottom {
+         right: 0;
+         left: 67px;
+         }             
+
+         .offcanvas-header {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         padding: 1rem 1rem;
+         background: #5d6aa8;
+         border-left: 5px solid #394b9e;
+         color: #fff;
+         font-size: 13px;
+         }
+         #offcanvasBottom{
+            height:220px;
+         }
+
+         .off-canvas-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.offcanvas-header button{
+   padding: 0;
+   border: none;
+}
+.offcanvas-header button > span{
+   background: #7482bf;
+   border: 0px;
+   line-height: 25px;
+   height: 26px;
+   width: 25px;
+   color: #fff;
+   padding-top: 2px;
+}
+.offcanvas-header h6{
+   font-size:  13px;
+}
+
+.offcanvas-bottom{
+   height:35vh;
+}
+
+#agenttimereport th{
+   background: #8b97cf;
+   color: #fff !important;
+   font-weight: 300;
+   font-size: 13px;
+   padding: 9px;
+} 
+
+#agenttimereport td {
+   height: 30px;
+   padding: 8px;
+}
+
+#agenttimereport {
+   border:1px solid #ccc;
+}
+
+.bg-hold{
+   background:#f0b970;
+}
+
+#liveToast span{
+   font-size:  18px;
+}
+.live-call{
+   color:#08cb08;
+}
+
+.dial-next-number{
+   background: #959ec6;
+   color: #fff;
+   font-size: 13px !important;
+}
+.selectbreak{
+
+}
+#minimizecanvas {
+   line-height: 8px;
+   text-align: center;
+   margin: 0px -2px;
+}
+
+.bgmaintheme .staticdropcss .btn-group .multiselect-container.show{
+   transform: translate(5px, 26px) !important;
+}
+.bgmaintheme .staticdropcss .btn-group .multiselectUpgrade{
+   height: 26px !important;
+}
+.text-primary.mainsectext{
+   border-right: 1px solid #000;
+   height: 14px;
+   line-height: 16px;
+}
+.text-primary.mainsectext:last-child{
+   border-right: none;
+}

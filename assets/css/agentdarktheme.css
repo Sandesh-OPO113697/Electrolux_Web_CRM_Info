@@ -1,0 +1,115 @@
+.darkThemeColor .bgmaintheme, .darkThemeColor .tab-content.bg-white {
+  background-color: #3a3a56 !important;
+}
+
+.darkThemeColor .live-call {
+  color: #00ac00;
+}
+
+.darkThemeColor .status-text{
+   color:#ccc;
+}
+
+.darkThemeColor .offcanvas-header{
+   background:#f3bb71;
+   border-left: 5px solid #c88a38;
+   color:#000;
+}
+.darkThemeColor .offcanvas-header button{
+   background:#c88a38;
+   color: #fff !important;
+}
+.darkThemeColor .bgmaintheme  label.form-label {
+  color: #fff;
+}
+
+.darkThemeColor #sectshow .form-floating > input[type="text"], .darkThemeColor #sectshow select{
+background-color: transparent !important;
+border-bottom: 1px solid #fff;
+color: #ffffff;
+}
+
+.darkThemeColor #minimizecanvas span{
+  background-color: #c88a38;
+  color: #ffffff;
+}
+
+.darkThemeColor .bgmaintheme .form-floating > .form-control, .darkThemeColor .bgmaintheme  .form-group > .form-control, .darkThemeColor .bgmaintheme  .form-floating > .form-select{
+background:transparent !important;
+border-bottom: 1px solid #fff !important;
+color: #ffffff;
+}
+
+.darkThemeColor .bgmaintheme .staticdropcss .btn-group .multiselectUpgrade, .darkThemeColor .bgmaintheme .form-floating > .form-control: focus{
+  background-color: transparent !important;
+}
+
+.darkThemeColor .bgmaintheme  .nav-tabs .nav-link {
+  color: #fff;
+}
+
+.darkThemeColor .actionBtnsDiv .primaryBg {
+  background-color: #2891bc !important;
+}
+
+.darkThemeColor .bgmaintheme #nav-tab .material-icons {
+  color: #ccc !important;
+}
+.tab-content {
+ 
+  margin-top: 30px;
+}
+
+.darkThemeColor #sectshow .primaryBg{
+      background: #c58f47 !important;
+}
+.close-toast{
+  height: 30px;
+  width: 30px;
+  background: #5f6dac;
+  right: 0;
+  position: absolute;
+  top: 2px;
+  padding: 5px;
+}
+.close-toast span{
+   font-size: 17px;
+}
+.darkThemeColor #liveToast .form-control,.darkThemeColor #liveToast .btn {
+ background:#5c679e;
+  border: 1px solid #999;
+  color: #fff;
+}
+
+.darkThemeColor .toast-body .btn.status_bg{
+  background-color: #8494e4 !important;
+  color: #ffffff !important;
+  border: 1px solid #8494e4 !important;
+}
+.darkThemeColor .toast-body .btn.bg_view{
+  background-color: #56db56 !important;
+  color: #ffffff;
+  border: 1px solid #56db56 !important;
+}
+.darkThemeColor .toast-body .btn.bg_call{
+  background-color: #ffdda0 !important;
+  color: #fdb251 !important;
+  border: 1px solid #ffdda0 !important;
+}
+.darkThemeColor .bgmaintheme .staticdropcss .btn-group .multiselectUpgrade{
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border-bottom: 1px solid #ffffff !important;
+}
+.darkThemeColor .offcanvas .actionBtnsDiv .btn.btn-light{
+  color: #ffffff;
+}
+.darkThemeColor .text-primary.mainsectext{
+  color: #ffffff !important;
+}
+.darkThemeColor .text-primary.mainsectext{
+  border-right: 1px solid #fff;
+}
+.darkThemeColor .text-primary.mainsectext:last-child{
+   border-right: none;
+}

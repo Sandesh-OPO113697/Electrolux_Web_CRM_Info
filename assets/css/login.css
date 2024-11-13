@@ -1,0 +1,148 @@
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+.auth-fluid {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 100vh;
+ -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  background: url(../images/bg-auth.jpg) center;
+   background-size: cover;
+}
+.auth-fluid .auth-fluid-right {
+  padding: 6%;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  color: #fff;
+  background-color: #fff;
+}
+.auth-fluid-form-box:before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  top: 25%;
+  border-top: 23px solid transparent;
+  border-bottom: 38px solid transparent;
+  border-left: 37px solid #fff;
+  transform: rotate(77deg);
+  left: -2rem;
+}
+
+.auth-fluid .auth-fluid-form-box {
+  border-radius: 0;
+  z-index: 2;
+  padding: 3rem;
+  width: 57% !important;
+  background: #5f6dac url('../img/login-bg.png');
+  position: relative;
+  width: 100%;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-width: 100%
+}
+.w-400 {
+  width: 400px;
+}
+
+.auth-fluid-form-box .form-control, .auth-fluid-form-box .form-select {
+  border: 0px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.auth-user-testimonial {
+  position: absolute;
+  margin: 0 auto;
+  padding: 0 1.75rem;
+   left: 0;
+  right: 0;
+}
+
+.grey-bg {
+  background: #aeb9e9;
+}
+
+.auth-fluid-form-box .form-control {
+  padding: .7rem .9rem;
+  border-radius: 0px;
+}
+.bottomstrip {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height:40px;
+  text-align:   center;
+  align-items: center;
+  padding: 0 1.5rem;
+  background-color:transparent  ; 
+}
+
+
+.auth-fluid-form-box span, .auth-fluid-form-box label{
+font-size: 14px;
+font-weight:300;
+}
+ .auth-fluid-form-box p{
+  font-size: 20px;
+font-weight:400;
+ }
+
+.auth-fluid-form-box .btn.btn-primary{
+border-radius: 4px;
+border: 0px !important;
+padding: 10px 50px;
+}
+.welcome {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.auth-fluid-form-box h1 {
+  font-size: 42px;
+}
+
+.grey-bg {
+  background: #aeb9e9;
+}
+
+.auth-fluid-form-box .font-18 {
+  font-size: 18px;
+} 
+
+.auth-fluid-form-box a{
+text-decoration: none;
+  font-size: 14px;
+  font-weight: normal;
+}
+.auth-fluid-form-box .form-control{
+  font-size:  14px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .auth-fluid .auth-fluid-form-box {
+    width:100% !important;
+  }
+.auth-fluid-form-box::before {
+  display: none;
+}
+.auth-fluid-form-box h1 {
+  font-size: 24px;
+}
+
+}
+
+

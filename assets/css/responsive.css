@@ -1,0 +1,193 @@
+/* Media Queries below 767px */
+@media screen and (max-width: 767px) {
+    .mainSection {
+        padding-left: 80px;
+        padding-top: 120px;
+    }
+    #sidebarMenu {
+        display: block;
+    }
+    .loginMainDiv ul.dropdown-menu {
+        left: auto;
+        right: 0px;
+    }
+    .responsiveTopBar a {
+        display: none;
+    }
+    .responsiveTopBar div.navbar-collapse {
+        display: flex;
+        padding-left: 80px;
+    }
+    .responsiveTopBar .topBarContent span.user-name {
+        display: none;
+    }
+    .responsiveCloseIcon button span {
+        font-size: 20px;
+    }
+    .responsiveCloseIcon button {
+        border: none;
+        background: transparent;
+        margin-top: 10px;
+    }
+    button.hamBurgerMenu {
+        background: transparent;
+        border: none;
+        padding: 0;
+        margin-left: -10px;
+    }
+    .navbar {
+        padding: 1rem 0;
+    }
+    .searchForm input[type="search"] {
+        width: auto !important;
+    }
+    .commonSearh_wrapper .commonSearh {
+        z-index: 5;
+        top: 35px;
+        bottom: auto;
+    }
+    th.dt-select.dt-orderable-none.dtfc-fixed-start.dtfc-fixed-left {
+        left: -3px !important;
+        background-color: var(--primary-color);
+        padding: 10px;
+    }
+    td.dt-select.dtfc-fixed-start.dtfc-fixed-left {
+        left: -3px !important;
+        padding: 10px;
+    }
+    .topBarContent {
+        flex-direction: column;
+    }
+    .adjust_ltrt {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .searchDiv {
+        margin-bottom: 20px;
+    }
+    .cardsDiv .row > div {
+        margin-bottom: 10px;
+    }
+    .weekDayTimeMainDiv .showInMobile {
+        display: block;
+        color: var(--primary-color);
+    }
+    .weekDayTimeMainDiv span.weekDayText, .weekDayTimeMainDiv span.dateText, .weekDayTimeMainDiv span.yearText, .timeMainDiv span.timeText {
+        display: none;
+    }
+    ul.graphtable_viewlister {
+        transform: translate3d(-15px, 42px, 0) !important;
+    }
+    div.dt-container .dt-search input {
+        width: auto !important;
+    }
+    .checkboxBadgeMainDiv .checkboxDiv {
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+    .checkboxBadgeMainDiv {
+        flex-wrap: wrap;
+    }
+    .realTimeStatusTableDiv {
+        margin-top: 20px !important;
+    }
+}
+
+/* Media Queries between 768px and 991px */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .responsiveTopBar a {
+        display: none;
+    }
+    .responsiveTopBar div.navbar-collapse {
+        display: flex;
+        padding-left: 80px;
+    }
+    .responsiveTopBar .topBarContent span.user-name {
+        display: none;
+    }
+    .responsiveCloseIcon button span {
+        font-size: 20px;
+    }
+    .responsiveCloseIcon button {
+        border: none;
+        background: transparent;
+        margin-top: 10px;
+    }
+    button.hamBurgerMenu {
+        background: transparent;
+        border: none;
+        padding: 0;
+        margin-left: -5px;
+    }
+    .navbar {
+        padding: 1rem 0;
+    }
+    .searchForm input[type="search"] {
+        width: 200px;
+    }
+    th.dt-select.dt-orderable-none.dtfc-fixed-start.dtfc-fixed-left {
+        left: -3px !important;
+        background-color: var(--primary-color);
+        padding: 10px;
+    }
+    td.dt-select.dtfc-fixed-start.dtfc-fixed-left {
+        left: -3px !important;
+        padding: 10px;
+    }
+    ul.graphtable_viewlister {
+        transform: translate3d(-15px, 42px, 0) !important;
+    }
+    .checkboxBadgeMainDiv .checkboxDiv {
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+    .checkboxBadgeMainDiv {
+        flex-wrap: wrap;
+    }
+    .realTimeStatusTableDiv {
+        margin-top: 20px !important;
+    }
+}
+
+/* Media Queries between 992px and 1280px */
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+    .adjust_ltrt {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .responsiveCloseIcon button {
+        display: none;
+    }
+    th.dt-select.dt-orderable-none.dtfc-fixed-start.dtfc-fixed-left {
+        left: -3px !important;
+        background-color: var(--primary-color);
+        padding: 10px;
+    }
+    td.dt-select.dtfc-fixed-start.dtfc-fixed-left {
+        left: -3px !important;
+        padding: 10px;
+    }
+    ul.graphtable_viewlister {
+        transform: translate3d(-15px, 42px, 0) !important;
+    }
+    .checkboxBadgeMainDiv .checkboxDiv .form-check, .checkboxBadgeMainDiv .checkboxDiv {
+        margin-bottom: 0px;
+    }
+    .realTimeStatusTableDiv {
+        margin-top: 20px !important;
+    }
+}
+
+/* Media Queries above 1280px */
+@media screen and (min-width: 1281px) {
+    .responsiveCloseIcon button {
+        display: none;
+    }
+    th.dt-select.dt-orderable-none.dtfc-fixed-start.dtfc-fixed-left {
+        left: -3px !important;
+        background-color: var(--primary-color);
+    }
+    td.dt-select.dtfc-fixed-start.dtfc-fixed-left {
+        left: -3px !important;
+    }
+}
